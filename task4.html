@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<style type="text/css">
+  		.col,.col-md-6,.col-md-3{
+  			border: 5px solid black;
+  			height: 150px;
+  			text-align: center;
+  			/*padding-top: 50px;
+  			padding-bottom: 50px;*/
+  			font-weight: bold;
+
+  		}
+  		.container{
+  			background-color: whitesmoke;
+  		}
+  		/*.col-md-1{
+  			border: 0px solid white;
+  			background-color: blue;
+  		}
+  		.col-md-5{
+  			border: 0px solid white;
+  			background-color: blue;
+  			color: white;
+  			padding-left: 100px;
+  		}
+  		.container{
+  			background-color: white;
+  		}*/
+  	</style>
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<div class="col bg-primary">header</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 bg-warning">main</div>
+		<!--<div class="col-md-3 bg-white">empty</div>-->
+		<div class="offset-3 col-md-3 bg-danger">sidebar</div>
+	</div>
+	<div class="row">
+		<div class="col bg-success">footer</div>
+	</div>
+	<!--<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-5"></div>
+		<div class="col-md-5">title</div>
+		<div class="col-md-1"></div>
+	</div>-->
+	</div>
+</body>
+</html>

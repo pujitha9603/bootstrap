@@ -1,0 +1,45 @@
+/*.a{
+	float: right;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.b{
+	float:right;
+
+}*/
+
+
+.card{
+  width:300px;
+  height:300px;
+  box-shadow: 0 4px 8px;
+  justify-content: center;
+
+}
+.c{
+  height:50px;
+  width:50px;
+  margin-left:5px;
+}
+.container{
+  padding: 10px;
+}
+.a{
+  margin-left:400px;
+}
+.b{
+  border-radius:50%;
+}
+.s{
+  margin-left:15%;
+}
+.d{
+  margin-left:30%;
+  font-size: 15px;
+}
+.f{
+  margin-left:20px;
+}
+.j{
+  margin-left:700px;
+}

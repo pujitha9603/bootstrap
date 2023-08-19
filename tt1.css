@@ -1,0 +1,87 @@
+/*.a{
+	float: right;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.b{
+	float:right;
+
+}*/
+
+
+/*
+.k{
+	height: 600px;
+	background-color: lightgrey;
+	padding-top: 120px ;
+	border-left: 75px solid lightgrey;
+	border-right: 75px solid lightgrey;
+	
+}
+.ki{
+	color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.ka{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: whitesmoke;
+}
+.u{
+	color: grey;
+}
+.kp{
+	font-size: 13px;
+	color: grey;
+}
+.kil{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.lu{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.jil{
+	margin-bottom: 10px;
+}*/
+
+
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:lightgray;
+}
+
+.container {
+width: 800px;
+color: lightgrey !important;
+}
+
+
+.fa-circle-check {
+  color: green;
+}
+p{
+  color:silver;
+  font-size: 10px;
+}
+.card {
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
